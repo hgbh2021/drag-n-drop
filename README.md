@@ -1,0 +1,8 @@
+# Drag And Drop functionalities using HTML, CSS, JavaScript
+This project is a simple web application that allows users to drag and drop elements from one container to other. The project uses HTML, CSS and JavaScript to create the user interface and the functionality. The project also has a reset button that clears the canvas and restores the original positions of the elements.
+
+To run the project, you need a web browser that supports HTML5 and JavaScript. You can either open the index.html file directly in your browser, or use a local web server to serve the files. 
+
+The project consists of three main files: index.html, style.css and index.js. The index.html file contains the basic structure of the web page, including two containers and the reset button. The style.css file defines the appearance of the elements, such as their colors, sizes and shapes. The script.js file contains the logic of the drag and drop functionality, using the HTML5 Drag and Drop API.
+
+The index.js file defines four functions:  dragStart, dragOver and dragEnd.  The dragStart function is called when an element is dragged and sets its data attribute to its id. The dragOver function is called when an element is dragged over the canvas and prevents the default behavior of dropping it outside the canvas. The drop function is called when an element is dropped on the canvas and draws it on the canvas using its data attribute and its current position. The reset function is called when the reset button is clicked and clears the canvas and resets the positions of the elements.
